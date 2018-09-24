@@ -1,0 +1,118 @@
+body, #langue, #serveur, label{
+	cursor: url("wow_cursors.cur"), auto;
+}
+
+body{
+	width: 100%;
+	position: absolute;
+	background-image:url(images/fond.jpg);
+	background-repeat:no-repeat;
+    background-attachment: fixed;
+	margin: 0px;
+}
+
+
+.langue, .serveur, #pseudo{
+	margin-right: 4%;
+}
+
+.serveur, #pseudo{
+	display: none;
+}
+
+
+.realmsAPI{
+	width: 880px;
+	background-color: #00E6FF;
+	position: relative;
+	top: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.statsAPI{
+	display: none;
+	width: 250px;
+	background-color: #55FF00;
+	position: absolute;
+	right: 6%;
+	top: 225px;
+	padding: 8px;
+}
+
+
+.statsAPI p{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.statsAPI img{
+	float: left;
+	height: 90px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+.divinfoAPI{
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 105px;
+	margin-bottom: 20px;
+}
+.divstatsAPI{
+	width: 100%;
+}
+
+
+
+
+section{
+	background-color: #E397E6; 
+	width: 880px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+
+
+.iconestats ul{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	background-color: yellow;
+	padding: 0px;
+}
+
+.iconestats ul li{
+	list-style: none;
+	font-size: 18px;
+}
+
+
+
+.itemsCadreAll{
+	background-color: red;
+	padding: 20px 0px; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+.itemsCadre{
+	margin: 15px 10px;
+	width: 300px;
+	background-color: grey;
+}
+
+.itemsCadre img{
+	margin: 8px 15px 6px 15px;
+}

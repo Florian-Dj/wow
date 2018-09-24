@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>World of Warcraft Stats</title>
+	    <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" href="favicon.ico" />
+	</head>
+
+	<body>
+
+		<div class="realmsAPI">
+			<div class="langue">
+				<label for="langue">Langue du serveur ?</label><br />
+				<select name="langue" id="langue">
+					<option value="rien">-- Langue des serveurs --</option>
+					<option value="en_GB">Anglais</option>
+					<option value="de_DE">Allemand</option>
+					<option value="es_ES">Espagnol</option>
+					<option value="fr_FR">Français</option>
+					<option value="it_IT">Italien</option>
+					<option value="pt_PT">Portugais</option>
+					<option value="ru_RU">Russe</option>
+				</select>
+			</div>
+
+			<div class="serveur">
+				<label for="serveur">Nom du serveur ?</label><br />
+				<select name="serveur" id="serveur"></select>
+			</div>
+
+			<input type="text" id="pseudo" placeholder="Nom personnage" size="20"/>
+		
+			<button class="recherche_button">Recherche</button>
+		</div>
+
+
+
+		<div class="statsAPI"></div>
+
+
+		<embed class="sound" src="sound.mp3" autostart="true" loop="false" hidden="true"></embed>
+
+		<section>
+			<div class="iconestats">
+				<ul>
+					<li>Guilde</li>
+					<li>PVE</li>
+					<li>PVP</li>
+					<li>Métiers</li>
+					<li>Montures</li>
+					<li>Pets</li>
+					<li>Stats</li>
+				</ul>
+			</div>
+
+			<div class="itemsCadreAll">
+			</div>
+			
+		</section>
+
+
+
+
+		<script src="js/realmsAPI.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/itemsAPI.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/statsAPI.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+
+</html>
